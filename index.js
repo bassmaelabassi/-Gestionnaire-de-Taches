@@ -17,7 +17,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/tasks').then(() => {
 })
 
 
-//app.use('/api/task', taskRoutes);
+app.use('/api/task', taskRoutes);
 
 
 app.listen(port, () => {
